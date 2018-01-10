@@ -1,0 +1,33 @@
+
+.container {
+      padding: 80px 120px;
+  }
+
+.img-circle{
+	border-radius: 20%;
+}
+
+div.background {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9b/Story_Bridge_at_night_1.jpg) repeat;
+    border: 1px solid black;
+    padding: 0px 12px 0px 12px;
+  
+
+}
+
+div.transbox {
+    margin: 50px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.3;
+    filter: alpha(opacity=60); 
+    padding: 0px 12px 0px 12px;							/* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 10%;
+    font-weight: bold;
+    color: black;
+    padding: 0px 12px 0px 12px;
+}
+
